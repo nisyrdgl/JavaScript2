@@ -83,4 +83,92 @@ sonuc=a==t; //dogru ise true yanlis ise false dondurur
 // 3 esittirle de yapilabilir.
 sonuc=a===t; //typeof kontrol ediliyor
 
+//Mantiksal 
+//&& || !
+
+
+// Date Object
+var d=new Date();
+console.log(d);
+console.log(d.getFullYear());
+console.log(d.getMonth());
+console.log(d.getDate());
+console.log(d.getHours());
+console.log(d.getDay()); //index olarak
+
+
+
+//set methods
+d.setFullYear(1996);
+d.setMonth(12);
+d.setDate(25);
+
+//string methodları
+const ad='Nisa';
+const soyad='yurdagül';
+var x=ad+' '+soyad;
+console.log(x);
+
+//string length
+//x=ad.length;
+//string toUpperCase: büyütme
+//string toLowerCase: küçültme
+//indexof:arama yapar
+
+//string subString
+//x=x.substring(0,5);
+
+
+//number methodları
+var x=10;
+console.log(typeof x);
+
+//parseIntt parseFloat
+var sayi=24.445;
+sayi=parseInt(sayi);
+console.log(sayi);
+//sayi=parseFloat(sayi);
+
+//precision fixed_stringe dönüştürür
+sayi=sayi.toPrecision();
+console.log(sayi);
+ //Math 
+ sayi=Math.PI;
+ console.log(sayi);
+ //Math.min(23,25,12);-max
+ //random 
+ sayi=Math.random();
+
+ //Arrays
+
+ var country=['Türkiye','Bulgaristan','Yunanistan'];
+ console.log(country);
+ console.log(typeof country);
+
+ var cn=['Turkiye',15,null,undefined];
+ console.log(cn);
+
+ //get Arrays
+ console.log(cn[0]);
+
+ //set Arrays
+ cn[0]='Bursa';
+ console.log(cn[0]);
+
+ //add arrays item
+ country.push(19);
+ country.push('USA');
+ country.unshift(23);
+ console.log(country);
+
+ //remove arrays
+
+ country.pop();//sondaki ifadeyi siler
+ country.shift();//baştaki ifadeyi siler
+ //reverse elemanların yerini değiştirir baştaki ifade sonda olur.
+
+ //sort sıralama
+
+ console.log( country.sort());
+
 
